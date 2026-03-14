@@ -23,5 +23,8 @@ def read_root():
 
 @app.get("/ranking")
 def get_ranking():
-    # 나중에 여기에 DB 연동 (PostgreSQL)
     return [{"name": "User1", "score": 100}, {"name": "User2", "score": 80}]
+@app.get("/top")
+def get_top():
+    return [{"name": "xpert", "score": 10000000}]
+
