@@ -4,10 +4,9 @@ import os
 
 app = FastAPI()
 
-# 보안: 준상이의 도메인만 허용 (나중에 CloudFlare 도메인으로 수정)
 origins = [
     "http://localhost",
-    "https://junsang-game.pages.dev", # 예시 도메인
+    "https://xpert-drwq.onrender.com/", 
 ]
 
 app.add_middleware(
