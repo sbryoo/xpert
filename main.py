@@ -19,9 +19,8 @@ app.add_middleware(
 
 @app.get("/")
 def read_root():
-    return {"message": "준상의 3D 게임 API 서버 작동 중!"}
+    return {"message": "API 서버 작동 중!"}
 
-# 월드랭킹 예시 API
 @app.get("/ranking")
 def get_ranking():
     # 나중에 여기에 DB 연동 (PostgreSQL)
