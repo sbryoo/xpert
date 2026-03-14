@@ -6,7 +6,7 @@ app = FastAPI()
 
 origins = [
     "http://localhost",
-    "https://xpert-drwq.onrender.com/", 
+    "https://xpertai.onrender.com/", 
 ]
 
 app.add_middleware(
